@@ -3,7 +3,7 @@ $(document).ready(function(){
     var windowHeight = $(window).height()
     console.log(windowHeight)
     if(windowWidth>640){
-        $(".main_con").css({marginTop:windowHeight-300})
+        $(".main_txt").css({marginTop:windowHeight/2})
     }
 })
 
