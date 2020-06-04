@@ -1,15 +1,28 @@
+#wrapper{
+    background: url(img/bg_13.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+header{
+    overflow: hidden;
+}
 header>nav>ul>li{
-    width: 50%;
-    height: 200px;
-    margin: 50px auto;
-    line-height: 200px;
+    float: left;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
     text-align: center;
-    background-color: #a00;
+    background-color: rgba(100,0,0,0.5);
 }
 header>nav>ul>li>a{
     color: #fff;
 }
 h1{
+    float: left;
+    width: 25%;
     height: 100px;
     line-height: 100px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
 }
