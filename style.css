@@ -1,0 +1,15 @@
+header>nav>ul>li{
+    width: 50%;
+    height: 200px;
+    margin: 50px auto;
+    line-height: 200px;
+    text-align: center;
+    background-color: #a00;
+}
+header>nav>ul>li>a{
+    color: #fff;
+}
+h1{
+    height: 100px;
+    line-height: 100px;
+}
