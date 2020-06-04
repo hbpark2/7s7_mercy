@@ -4,6 +4,9 @@ $(document).ready(function(){
     console.log(windowHeight)
     if(windowWidth>640){
         $(".main_txt").css({marginTop:windowHeight/2})
+    }else{
+        $(".main_txt").css({marginTop:200})
+
     }
 })
 
