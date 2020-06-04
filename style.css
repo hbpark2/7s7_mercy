@@ -80,3 +80,18 @@ h1:hover{
 
 }
 
+
+
+
+@media screen and (max-width:640px) {
+    .main_txt{
+        width: 80%;
+        margin: 0 auto;
+        position: static;
+    }
+    
+    
+    
+}
+
+
