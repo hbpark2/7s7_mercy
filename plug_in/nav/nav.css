@@ -1,0 +1,59 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+#gnb {
+    margin: 0 70px;
+    width: auto;
+    height: 130px;
+    line-height: 130px;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+h1 {
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+h1>a{
+    display: block;
+}
+.top_menu {
+    width: 75%;
+    overflow: hidden;
+    float: left;
+}
+
+.top_menu > li {
+    float: left;
+    width: 16.6%;    
+}
+
+.top_menu > li > a {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact {
+    width: 10%;
+    float: right;
+    text-align: center;
+}
+.depth_2{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+
+#content{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: seagreen;
+}
